@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040292431861",
+    "project_id": "elautentic-6f608",
+    "storage_bucket": "elautentic-6f608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040292431861:android:e98ad61726cb6a852b42bc",
+        "android_client_info": {
+          "package_name": "com.example.autenticuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040292431861-i7vs49noiing9hi5qisq7s2oh501s7gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDknQDtvWGVpf2Z3h0VSxKFVBUZ8nrC2lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040292431861-i7vs49noiing9hi5qisq7s2oh501s7gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

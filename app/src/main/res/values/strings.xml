@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Autentic User</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signed">signed</string>
+    <string name="login">login</string>
+
+    <string name="already_have_an_account_login">already_have_an_account_login</string>
+    <string name="don_t_have_an_account_sign_in">don_t_have_an_account_sign_in</string>
+
+
+</resources>
