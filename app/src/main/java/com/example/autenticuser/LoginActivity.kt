@@ -1,8 +1,12 @@
 package com.example.autenticuser
 
+import android.content.Context
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.VibrationEffect
+import android.os.Vibrator
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -54,9 +58,22 @@ class LoginActivity : AppCompatActivity() {
         // On successful response Display a Toast
         auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this) {
             if (it.isSuccessful) {
-                Toast.makeText(this, "Successfully LoggedIn", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Acceso Autorizado!", Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(this, Principal::class.java)
+                startActivity(intent)
+                // using finish() to end the activity
+                finish()
+
             } else
-                Toast.makeText(this, "Log In failed ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Acceso no autorizado! ", Toast.LENGTH_SHORT).show()
+
+
+
+
+
+
+
         }
     }
 
